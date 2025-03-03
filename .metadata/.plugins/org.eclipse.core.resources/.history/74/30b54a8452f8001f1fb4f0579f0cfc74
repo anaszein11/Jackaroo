@@ -1,0 +1,6 @@
+
+package model.card.st;
+
+public class Standard extends Card {
+
+}

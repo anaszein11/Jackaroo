@@ -1,0 +1,8 @@
+
+package model.card.standard;
+
+import model.card.Card;
+
+public class Standard extends Card {
+
+}
