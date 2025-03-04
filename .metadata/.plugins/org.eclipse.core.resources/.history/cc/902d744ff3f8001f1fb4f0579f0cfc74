@@ -14,8 +14,8 @@ import java.io.*;
 import java.util.*;
 
 public class Deck {
-	private static final String CARDS_FILE = "../Cards.csv";
-	private static ArrayList<Card> cardsPool = new ArrayList<>();
+	static final String CARDS_FILE = "../Cards.csv";
+	static ArrayList<Card> cardsPool = new ArrayList<>();
 
 	public static void loadCardPool(BoardManager boardManager, GameManager gameManager) throws IOException {
 		BufferedReader reader = null;
